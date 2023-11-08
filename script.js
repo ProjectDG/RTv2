@@ -41,17 +41,17 @@ class Drink{
    */
 
    // Margaritas................................................................................................
-   let houseMargarita = new Drink("House Margarita", "Margarita Glass", "Guest Choice", ["Jose Cuervo Tradicional Silver 2 oz"], ["Triple Sec 1 oz"], ["Sour Mix 3 oz"], ["Lime Wedge"],"./images/houseMargarita.png", null,["Flavored Margarita:", "-------------------------","Sour Mix" ,"2 oz", "-------------------------","Strawberry,", "Mango,", "Prickly Pear,", "Passion Fruit or", "Pomegranate", "1 oz"]);
-   let roccoRita = new Drink("Rocco Rita","Margarita Glass", "Guest Choice", ["Teremana Blanco 2 oz"], ["J. F. Haydens Orange Liqueur 1 oz"], ["Sour Mix 3 oz"], ["Lime Wedge"],"./images/roccoRita.png", null, null);
-   let cadillac = new Drink("Cadillac", "Margarita Glass", "Guest Choice", ["1800 Anejo 2 oz"], ["Grand Marnier 1 oz"], ["Sour Mix 3 oz"], ["Lime Wedge"],"./images/cadillac.png", null, null);
-   let blackDiamond = new Drink("Black Diamond", "Rocks Glass", "Black Sea Salt", ["Santo Blanco 2 oz"], ["Real Black Cherry Syrup 1 oz"], ["Rocco's Lime Mix 2 oz"], ["Dehydrated Lime Wheel"],"./images/blackDiamond.png", null, null);
-   let strawberryBasil = new Drink("Strawberry Basil", "Margarita Glass", "Guest Choice", ["Flecha Azul Blanco 2 oz"], ["Triple Sec 1 oz"], ["Agave .5 oz,", "Basil & Strawberry ( Muddled )", "Rocco's Lime Mix 3 oz"], ["Basil ( 2 Leaves )", "Strawberry"],"./images/strawberryBasil.png", null, null);
-   let spicyJalapeno = new Drink("Spicy Jalapeno", "Margarita Glass", "Guest Choice", ["Tanteo Jalapeno 2 oz", "( sub Habanero or Chipotle )"], ["Triple Sec 1 oz"], ["Rocco's Lime Mix 3 oz"], ["Jalapeno Slice,", "Lime Wedge"],"./images/jalapeno.png", null, null);
-   let twoTango = new Drink("Two Tango", "Old Fashioned Rocks Glass", "Jalapeno Salt", ["El Jimador Blanco 1 oz,", "Dos Hombres Mezcal 1 oz"],null, ["Jalapeno ( 1 Slice Muddled ),", "Rocco's Lime Mix 3 oz"], ["Dehydrated Chile De Arbol,", "Dehydrated Lime Wheel"],"./images/twoTango.png", null, null);
-   let skinnySenorita = new Drink("Skinny Senorita", "Coupe Glass (No Ice)",null, ["Herradura Silver 2 oz"],null,["Rocco's Lime Mix 2 oz"], ["Dehydrated Edible Flowers,", "Dehydrated Lime Wheel"],"./images/skinnySenorita.png", null, null);
-   let roccoMango = new Drink("Rocco Mango", "Highball", "Hibiscus Salt",null,null,["Batch Mix 3 oz,", "Rocco's Lime Mix 2 oz"], ["Dehydrated Lime Wheel"],"./images/roccoMango.png", null, null);
-   let watermelonKiss = new Drink("Watermelon Kiss", "Margarita Glass",null, ["El Jimador Blanco 2 oz"], ["Triple Sec 1 oz"], ["Finest Call Watermelon 1 oz,", "Rocco's Lime Mix 2 oz"], ["Watermelon Slice"],"./images/watermelonKiss.png", null, null);
-   let spicyMango = new Drink("Spicy Mango", "Highball Glass", "Tajin Chile Lime Salt", ["Ghost Tequila 2 oz"],null, ["Real Mango Puree 1 oz,", "Sour Mix 1 oz"], ["Dehydrated Chile De Arbol,", "Dehydrated Lime Wheel"],"./images/spicyMango.png", null, null);
+   let houseMargarita = new Drink("House Margarita", "Margarita Glass", "Guest Choice", ["Jose Cuervo", "Tradicional Silver - 2 oz"], ["Triple Sec - 1 oz"], ["Sour Mix - 3 oz"], ["Lime Wedge"],"./images/houseMargarita.png", null,["Flavored Margarita:", "-------------------------","Sour Mix:" ,"2 oz", "-------------------------","Strawberry,", "Mango,", "Prickly Pear,", "Passion Fruit or", "Pomegranate:", "1 oz"]);
+   let roccoRita = new Drink("Rocco Rita","Margarita Glass", "Guest Choice", ["Teremana Blanco - 2 oz"], ["J. F. Haydens", "Orange Liqueur - 1 oz"], ["Sour Mix - 3 oz"], ["Lime Wedge"],"./images/roccoRita.png", null, null);
+   let cadillac = new Drink("Cadillac", "Margarita Glass", "Guest Choice", ["1800 Anejo - 2 oz"], ["Grand Marnier - 1 oz"], ["Sour Mix - 3 oz"], ["Lime Wedge"],"./images/cadillac.png", null, null);
+   let blackDiamond = new Drink("Black Diamond", "Rocks Glass", "Black Sea Salt", ["Santo Blanco - 2 oz"], ["Real Black Cherry Syrup - 1 oz"], ["Rocco's Lime Mix - 2 oz"], ["Dehydrated Lime Wheel"],"./images/blackDiamond.png", null, null);
+   let strawberryBasil = new Drink("Strawberry Basil", "Margarita Glass", "Guest Choice", ["Flecha Azul Blanco - 2 oz"], ["Triple Sec - 1 oz"], ["Agave - .5 oz,", "Rocco's Lime Mix - 3 oz"], ["Strawberry,", "Basil ( Sprig )"],"./images/strawberryBasil.png", null, ["Muddle", "-------------------------", "Basil & Strawberry"]);
+   let spicyJalapeno = new Drink("Spicy Jalapeno", "Margarita Glass", "Guest Choice", ["Tanteo Jalapeno - 2 oz"], ["Triple Sec - 1 oz"], ["Rocco's Lime Mix - 3 oz"], ["Lime Wedge,", "Jalapeno Slice"],"./images/jalapeno.png", null, ["Liquor Substitutions:", "-------------------------", "Habanero", "Chipotle"]);
+   let twoTango = new Drink("Two Tango", "Old Fashioned Rocks Glass", "Jalapeno Salt", ["El Jimador Blanco - 1 oz,", "Dos Hombres Mezcal - 1 oz"],null, ["Rocco's Lime Mix - 3 oz"], ["Dehydrated Lime Wheel,", "Dehydrated Chile De Arbol,"],"./images/twoTango.png", null, ["Muddle", "-------------------------", "Jalapeno Slice"]);
+   let skinnySenorita = new Drink("Skinny Senorita", "Coupe Glass (No Ice)",null, ["Herradura Silver - 2 oz"],null,["Rocco's Lime Mix - 2 oz"], ["Dehydrated Lime Wheel,", "Dehydrated Edible Flowers"],"./images/skinnySenorita.png", null, null);
+   let roccoMango = new Drink("Rocco Mango", "Highball", "Hibiscus Salt", ["Batch Mix - 3 oz"],null,["Rocco's Lime Mix - 2 oz"], ["Dehydrated Lime Wheel"],"./images/roccoMango.png", null, ["Batch Mix", "-------------------------", "Jose Cuervo Tradicional Silver:",  "750ml", "-------------------------", "Rock & Roll Mango Tequila:", "750ml", "-------------------------", "J. F. Hayden Mango Liqueur:", "750ml", "-------------------------"]);
+   let watermelonKiss = new Drink("Watermelon Kiss", "Margarita Glass",null, ["El Jimador Blanco - 2 oz"], ["Triple Sec - 1 oz"], ["Finest Call Watermelon - 1 oz,", "Rocco's Lime Mix - 2 oz"], ["Watermelon Slice"],"./images/watermelonKiss.png", null, null);
+   let spicyMango = new Drink("Spicy Mango", "Highball Glass", "Tajin Chile Lime Salt", ["Ghost Tequila - 2 oz"],null, ["Sour Mix - 1 oz", "Real Mango Puree - 1 oz"], ["Dehydrated Lime Wheel,", "Dehydrated Chile De Arbol"],"./images/spicyMango.png", null, null);
 
 
    // Frozen Margaritas
@@ -67,13 +67,14 @@ class Drink{
        /* Batch */        null,
        /* Instructions */ ["Flavored Margarita:",
                           "-------------------------------",   
-                          "Rocco's Lime Mix 2 oz",
+                          "Rocco's Lime Mix:", 
+                          "2 oz",
                           "-------------------------------",
                           "Strawberry,", 
                           "Mango,", 
                           "Prickly Pear,", 
-                          "Passion Fruit", 
-                          "or Pomegranate", 
+                          "Passion Fruit or", 
+                          "Pomegranate:", 
                           "1 oz"]);
    let roccoRitaFrozen = new Drink(
        /* Name */         "Rocco Rita (Frozen)",
@@ -87,13 +88,14 @@ class Drink{
        /* Batch */        null,
        /* Instructions */ ["Flavored Margarita:",
                           "-------------------------------",
-                          "Rocco's Lime Mix 2 oz",
+                          "Rocco's Lime Mix:", 
+                          "2 oz",
                           "-------------------------------",
                           "Strawberry,", 
                           "Mango,", 
                           "Prickly Pear,", 
-                          "Passion Fruit", 
-                          "or Pomegranate", 
+                          "Passion Fruit or", 
+                          "Pomegranate:", 
                           "1 oz"]);
    let cadillacFrozen = new Drink("Cadillac (Frozen)", "Margarita Glass", "Guest Choice", ["1800 Anejo 2 oz"], ["Grand Marnier 1 oz"], ["Rocco's Lime Mix 3 oz"], ["Lime Wedge"],"./images/cadillacFrozen.png", null, null);
    let jalapenoFrozen = new Drink("Jalapeno (Frozen)", "Margarita Glass", "Guest Choice", ["Tanteo Jalapeno 2 oz", "( sub Habanero or Chipotle )"], ["Triple Sec 1 oz"], ["Rocco's Lime Mix 3 oz"], ["Jalapeno Slice,", "Lime Wedge"],"./images/jalapenoFrozen.png", null, null);
@@ -102,14 +104,14 @@ class Drink{
    
 // "\(Limon, Pineapple, Mango, Grapefruit,", "Raspberry, DragonBerry, Coconut or Banana)"
    // Specialty Drinks
-   let mojito = new Drink("Mojito", "Highball",null, ["Bacardi 2 oz", "--------------------------","(Limon, Pineapple,", "Mango, Grapefruit, Raspberry,", "DragonBerry, Coconut or Banana)"],null, ["Club Soda ( Topped ),", "Lime Wedges ( 4-6 Muddled ),", "Mint Leaves ( 4-6 Muddled ),", "Simple Syrup 1 oz"], ["Lime Wedge,", "Mint Leaves"],"./images/mojito.png", null, null);
-   let cocoCabana = new Drink("Coco Cabana", "Highball",null, ["Jose Cuervo Tradicional Silver 2 oz"],null, ["Club Soda ( Splash ),", "Mint Sprig,", "Real Coco 1 oz,", "Rocco's Lime Mix 2 oz"], ["Dehydrated Lime Wheel,", "Mint Leaves & Shaved Coconut"],"./images/cocoCabana.png", null, null);
+   let mojito = new Drink("Mojito", "Highball",null, ["Bacardi - 2 oz"],null, ["Simple Syrup - 1 oz,", "Club Soda ( Topped )"], ["Lime Wedge,", "Mint Leaves"],"./images/mojito.png", null, ["Muddle", "-------------------------", "Lime Wedges", "&", "Mint Leaves:", "( 4-6 Muddled )", "-------------------------", "Bacardi Flavors:", "Limón, Pineapple, Mango,", "Grapefruit, Raspberry,", "DragonBerry, Coconut or Banana"]);
+   let cocoCabana = new Drink("Coco Cabana", "Highball",null, ["Jose Cuervo", "Tradicional Silver - 2 oz"],null, ["Club Soda ( Splash ),", "Mint Sprig,", "Real Coco - 1 oz,", "Rocco's Lime Mix - 2 oz"], ["Dehydrated Lime Wheel,", "Mint Leaves &", "Shaved Coconut"],"./images/cocoCabana.png", null, null);
    let pricklyPineappleExpress = new Drink("Prickly Pineapple Express", "Highball", "Tajin Chile Lime Salt", ["Jose Cuervo Tradicional Silver 2 oz"],null,["Pineapple Juice 1 oz,", "Prickly Pear Puree 1 oz,", "Sour Mix 1 oz"], ["Dehydrated Lime Wheel,", "Dehydrated Pineapple"],"./images/pricklyPineappleExpress.png", null, null);
-   let dosHombrise = new Drink("Dos Homb-Rise", "Highball", "Tajin Chile Lime Salt", ["Dos Hombres Espadin 2 oz"],null,["Grenadine .5 oz,", "Pineapple Juice 2 oz,", "Rocco's Lime Mix 1.5 oz"], ["Dehydrated Pineapple"],"./images/dosHombrise.png", null, null);
+   let dosHombrise = new Drink("Dos Homb-Rise", "Highball", "Tajin Chile Lime Salt", ["Dos Hombres Espadin - 2 oz"],null,["Grenadine - .5 oz,", "Pineapple Juice - 2 oz,", "Rocco's Lime Mix - 1.5 oz"], ["Dehydrated Pineapple"],"./images/dosHombrise.png", null, null);
    let rosaRita = new Drink("Rosa Rita", "Old Fashioned Rocks Glass", "Hibiscus Salt", ["Hampton Water Rose wine 3 oz,", "Hornitos Plata 1 oz"],null, ["Club Soda ( Splash ),", "Real Stawberry Puree 1 oz,", "Rocco's Lime Mix 2 oz"], ["Dehydrated Edible Flowers ( 3 Flowers ),", "Dehydrated Lime Wheel"],"./images/rosaRita.png", null, null);
    let mexitini = new Drink("Mexitini", "Martini Glass",null,["Cazadores Reposado 1.5 oz"], ["J. F. Haydens Coffe Liqueuer 1.5 oz"], ["Agave .25 oz"], ["3 Coffee Beans"],"./images/mexitini.png", null, null);
    let oldFashioned = new Drink("Old Fashioned", "Old Fashioned Rocks Glass", "Bittersweet Chocolate Pinned", ["Hornitos Anejo 2 oz"],null, ["Agave .5 oz,", "Chocolate Bitters ( 4 Dashes ),", "Fee Brothers Orange Bitters ( 4 Dashes )"], ["Orange Peel"],"./images/oldFashioned.png", null, null);
-   let casamigosLemonade = new Drink("Casamigos Lemonade", "Rocco's Logo Pint",null, ["Casamigos Silver 2 oz"],null, ["Agave 1 oz,", "Club Soda ( Topped ),", "Lemons ( 6 Muddled )"],null,"./images/casamigosLemonade.png", null, null);
+   let casamigosLemonade = new Drink("Casamigos Lemonade", "Rocco's Logo Pint",null, ["Casamigos Silver - 2 oz"],null, ["Agave - 1 oz,", "Club Soda ( Top Off )"],null,"./images/casamigosLemonade.png", null, ["Muddle", "-------------------------", "6 - 8 Lemons"]);
    let theMules = new Drink("The Mules", "Copper Mug",null, ["Mexican: 1800 Anejo 2 oz", "Smokey: Dos Hombres Mezcal 2 oz | Moscow: Titos 2 oz"],null, ["Ginger Beer ( Topped ),", "Lime Juice 1 oz"], [" Dehydrated Lime Wheel"],"./images/theMules.png", null, null);
    //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
 
