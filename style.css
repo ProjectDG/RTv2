@@ -29,6 +29,7 @@ body {
         z-index: 2;
         color: rgb(241, 237, 231);
     }
+    
 
     .form,
     #otherBtnDiv,
@@ -137,7 +138,7 @@ body {
 #drinkTitle,
 #list,
 #recipeDiv,
-#recipeDiv2,
+#recipeInfoDiv,
 .recipe-container2,
 .recipe-ingredients-container2,
 #logoDiv
@@ -256,7 +257,7 @@ body {
     font-size: 4vh;
     text-decoration: underline;
     width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 #photoDiv{
@@ -266,11 +267,11 @@ body {
 }
 
 #drinkPhoto{
-    margin-bottom: 8vh;
+    margin-bottom: 5vh;
     border: 4px outset rgb(122, 113, 113);
     box-shadow: 1px 1px 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88), 0 0 5px rgb(88, 88, 88);
     max-width: auto;
-    height: 40vh;
+    height: 45vh;
     /*display: block;*/
 }
 
@@ -285,7 +286,7 @@ img[src="./images/logo.png"]{
     display: none;
     color: antiquewhite;
     margin-left: 5%;
-    width: 45%;                             /*code for when pics are enabled*/
+    width: 45%;                    
     height: 85%;
     padding-left: 0;
     background-color: rgba(0, 0, 0, 0);
@@ -294,13 +295,26 @@ img[src="./images/logo.png"]{
     justify-content: left;
 }
 
+#recipeInfoDiv{
+    border: 4px outset rgb(122, 113, 113);
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: auto;
+    height: 40vh;
+    width: 20%;                    
+    height: 75%;
+    color: antiquewhite;
+    font-size: 3.3vh;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
 .recipe-container{
     display: grid;
     grid-template-columns: auto; /*dont need the extra columns fix later*/
     grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
     column-gap: 2vw;
     height: 100%;
-    font-size: 2.2vh;
+    font-size: 3.5vh;
 }
 
 #glass{
