@@ -29,10 +29,30 @@ body {
         z-index: 2;
         color: rgb(241, 237, 231);
     }
-    #search
-{
+
+    .form,
+    #otherBtnDiv,
+    #drinkPhoto,
+    #mainButtonContainer{
     display: none;
-}
+    }
+
+    #logoDiv{
+        border-bottom: 2vh solid rgb(0, 0, 0);
+        max-width: 100%;
+        height: 16vh;
+        padding: 6% 0% 0% 0%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    img[src="./images/logo.png"]{
+        display: block;
+        margin: auto;
+        height: auto;
+        max-width: 90%;
+    }
+
+
     #portraitButtonDiv{
         border: 4px outset rgb(122, 113, 113);
         margin: 5%;
@@ -120,7 +140,7 @@ body {
 #recipeDiv2,
 .recipe-container2,
 .recipe-ingredients-container2,
-#search
+#logoDiv
 {
     display: none;
 }

@@ -356,6 +356,9 @@ class Drink{
 
 
       $(document).ready(function(){
+        $("#drinkPhoto").hide();
+        $("#search").hide();
+        $(".other-buttons").hide();
 
         $('body').on('click','.all-buttons', '.result-item', function(){
             $("#drinkPhoto").hide();
@@ -778,6 +781,7 @@ class Drink{
             $("#margBtnDiv").hide();
             $("#otherBtnDiv").show();
             $(".other-buttons").show()//.fadeIn(200);
+            $("#search").show();
             $(".form-container").show();
             $(".button-container").show();
             searchInput.value = '';
