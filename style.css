@@ -229,11 +229,18 @@ body {
     width: 80%;
 }
 
+.form-container
+.form{
+    margin: auto;
+    padding: auto;
+}
+
+
 /* Search */
 #search{
-    margin: 0 auto 2% auto;
+    margin: 0 auto 0 auto;
     width: 80vw;
-    height: 2vh;
+    height: 5vh;
     padding: 1%;
     font-size: 3vh;
 }
@@ -315,7 +322,7 @@ img[src="./images/logo.png"]{
 .recipe-container{
     display: grid;
     grid-template-columns: auto; /*dont need the extra columns fix later*/
-    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
     
     height: 100%;
     font-size: 3.5vh;
@@ -480,3 +487,8 @@ img[src="./images/logo.png"]{
     justify-self: left;
 }
 }
+
+
+/* Fire Tblet Resolution 1920 x 1200*/
+
+/* S22 Ultra Resolution 1440 x 3088 */
