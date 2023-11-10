@@ -322,8 +322,8 @@ img[src="./images/logo.png"]{
 .recipe-container{
     display: grid;
     grid-template-columns: auto; /*dont need the extra columns fix later*/
-    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
-    
+    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
+    column-gap: 1.5vw;
     height: 100%;
     font-size: 3.5vh;
 }
@@ -410,80 +410,92 @@ img[src="./images/logo.png"]{
     justify-self: left;
 }
 
+#liqueurRecipe3{
+    grid-column: 2 / span 2;
+    grid-row: 10;
+    justify-self: left;
+}
+
 #mixers{
     grid-column: 1;
-    grid-row: 10;
+    grid-row: 11;
     justify-self: left;
 }
 
 #mixersRecipe{
     grid-column: 2 / span 2;
-    grid-row: 10;
+    grid-row: 11;
     justify-self: left;
 }
 
 #mixersRecipe2{
     display: none;
     grid-column: 2 / span 2;
-    grid-row: 11;
+    grid-row: 12;
     justify-self: left;
 }
 
 #mixersRecipe3{
     display: none;
     grid-column: 2 / span 2;
-    grid-row: 12;
+    grid-row: 13;
     justify-self: left;
 }
 
 #mixersRecipe4{
     display: none;
     grid-column: 2 / span 2;
-    grid-row: 13;
+    grid-row: 14;
     justify-self: left;
 }
 
 #mixersRecipe5{
     display: none;
     grid-column: 2 / span 2;
-    grid-row: 14;
+    grid-row: 15;
     justify-self: left;
 }
 
 #mixersRecipe6{
     display: none;
     grid-column: 2 / span 2;
-    grid-row: 15;
+    grid-row: 16;
     justify-self: left;
 }
 
 #garnish{
     grid-column: 1;
-    grid-row: 16;
+    grid-row: 17;
     justify-self: left;
 }
 
 #garnishRecipe{
     grid-column: 2 / span 2;
-    grid-row: 16;
+    grid-row: 17;
     justify-self: left;
 }
 
 #garnishRecipe2{
     grid-column: 2 / span 2;
-    grid-row: 17;
+    grid-row: 18;
     justify-self: left;
 }
 
 #garnishRecipe3{
     grid-column: 2 / span 2;
-    grid-row: 18;
+    grid-row: 19;
     justify-self: left;
 }
 
 #garnishRecipe4{
     grid-column: 2 / span 2;
-    grid-row: 19;
+    grid-row: 20;
+    justify-self: left;
+}
+
+#garnishRecipe5{
+    grid-column: 2 / span 2;
+    grid-row: 21;
     justify-self: left;
 }
 }

@@ -59,9 +59,9 @@ class Drink{
        /* Name */         "House Margarita (Frozen)", 
        /* Glass */        "Margarita Glass", 
        /* Rim */          "Guest Choice", 
-       /* Liquor */       ["Jose Cuervo Tradicional Silver 2 oz"], 
-       /* Liqueuer */     ["Triple Sec 1 oz"], 
-       /* Mixers */       ["Rocco's Lime Mix 3 oz"],
+       /* Liquor */       ["Jose Cuervo:", "Tradicional Silver - 2 oz"], 
+       /* Liqueuer */     ["Triple Sec - 1 oz"], 
+       /* Mixers */       ["Rocco's Lime Mix - 3 oz"],
        /* Garnish */      ["Lime Wedge"],
        /* Image */        "./images/houseMargaritaFrozen.png", 
        /* Batch */        null,
@@ -80,9 +80,9 @@ class Drink{
        /* Name */         "Rocco Rita (Frozen)",
        /* Glass */        "Margarita Glass", 
        /* Rim */          "Guest Choice", 
-       /* Liquor */       ["Teremana Blanco 2 oz"], 
-       /* Liqueuer */     ["J. F. Haydens Orange Liqueur 1 oz"], 
-       /* Mixers */       ["Rocco's Lime Mix 3 oz"], 
+       /* Liquor */       ["Teremana Blanco - 2 oz"], 
+       /* Liqueuer */     ["J. F. Haydens", "Orange Liqueur - 1 oz"], 
+       /* Mixers */       ["Rocco's Lime Mix - 3 oz"], 
        /* Garnish */      ["Lime Wedge"],
        /* Image */        "./images/roccoRitaFrozen.png", 
        /* Batch */        null,
@@ -97,9 +97,9 @@ class Drink{
                           "Passion Fruit or", 
                           "Pomegranate:", 
                           "1 oz"]);
-   let cadillacFrozen = new Drink("Cadillac (Frozen)", "Margarita Glass", "Guest Choice", ["1800 Anejo 2 oz"], ["Grand Marnier 1 oz"], ["Rocco's Lime Mix 3 oz"], ["Lime Wedge"],"./images/cadillacFrozen.png", null, null);
-   let jalapenoFrozen = new Drink("Jalapeno (Frozen)", "Margarita Glass", "Guest Choice", ["Tanteo Jalapeno 2 oz", "( sub Habanero or Chipotle )"], ["Triple Sec 1 oz"], ["Rocco's Lime Mix 3 oz"], ["Jalapeno Slice,", "Lime Wedge"],"./images/jalapenoFrozen.png", null, null);
-   let watermelonKissFrozen = new Drink("Watermelon Kiss (Frozen)", "Margarita Glass",null, ["El Jimador Blanco 2 oz"], ["Triple Sec 1 oz"], ["Finest Call Watermelon 1 oz,", "Rocco's Lime Mix 2 oz"], ["Watermelon Slice"],"./images/watermelonKissFrozen.png", null, null);
+   let cadillacFrozen = new Drink("Cadillac (Frozen)", "Margarita Glass", "Guest Choice", ["1800 Anejo - 2 oz"], ["Grand Marnier - 1 oz"], ["Rocco's Lime Mix - 3 oz"], ["Lime Wedge"],"./images/cadillacFrozen.png", null, null);
+   let jalapenoFrozen = new Drink("Jalapeno (Frozen)", "Margarita Glass", "Guest Choice", ["Tanteo Jalapeno - 2 oz"], ["Triple Sec - 1 oz"], ["Rocco's Lime Mix - 3 oz"], ["Lime Wedge,", "Jalapeno Slice" ],"./images/jalapenoFrozen.png", null, ["Liquor Substitutions:", "-------------------------", "Habanero", "Chipotle"]);
+   let watermelonKissFrozen = new Drink("Watermelon Kiss (Frozen)", "Margarita Glass",null, ["El Jimador Blanco - 2 oz"], ["Triple Sec - 1 oz"], ["Rocco's Lime Mix - 2 oz,", "Finest Call Watermelon - 1 oz"], ["Watermelon Slice"],"./images/watermelonKissFrozen.png", null, null);
    //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
    
 // "\(Limon, Pineapple, Mango, Grapefruit,", "Raspberry, DragonBerry, Coconut or Banana)"
@@ -118,9 +118,9 @@ class Drink{
 
    // Mocktails
    let mockarita = new Drink("Mockarita", "Rocco's Logo Pint", "Guest Choice",null,null, ["Orange Juice - 1 oz,", "Rocco's Lime Mix - 2 oz,", "Zero Ritual Tequila Alt. - 2 oz"], ["Dehydrated Lime Wedge"],"./images/mockarita.png", null, null);
-   let pinita = new Drink("Pinita (Nut Allergy)", "Rocco's Logo Pint",null,null,null, ["Mint Sprig,", "Dugan & Dane:", "Tiki Tonic Syrup - 1 oz,", "Rocco's Lime Mix - 1 oz,", "Pineapple Juice - 1.5 oz,", "Club Soda ( Topped )"], ["Mint Sprig,", "Lime Wheel & Pineapple" /*"Dehydrated Pineapple", "Dehydrated Lime Wheel"*/],"./images/pinita.png", null, null);
-   let mulecumber = new Drink("Mulecumber", "Rocco's Logo Pint",null,null,null, ["Sour Mix - 1 oz,", "Dugan & Dane Classic Tonic - 1 oz,", "Q Ginger Beer ( Topped )"], ["Peeled Cucumber,", "Basil Leaf & Dehydrated Lime Wheel"],"./images/mulecumber.png", null, ["Muddle", "-------------------------", "Basil", "&", "Cucumber", "2 ea."]);
-   let roseberry = new Drink("Roseberry", "Rocco's Logo Pint",null,null,null, ["Agave - .25 oz,", "Blueberries ( 8 Muddled ),", "Club Soda ( Topped ),","Dugan & Dane Classic Tonic - 1 oz,", "Rosemary Sprig"], ["Blueberries ( 4-6 Skewered ),", "Dehydrated Lime Wheel & Rosemary Sprig"],"./images/roseberry.png", null, null);
+   let pinita = new Drink("Pinita (Nut Allergy)", "Rocco's Logo Pint",null,null,null, ["Mint Sprig,", "Dugan & Dane:", "Tiki Tonic Syrup - 1 oz,", "Rocco's Lime Mix - 1 oz,", "Pineapple Juice - 1.5 oz,", "Club Soda ( Topped )"], ["Mint Sprig,", "Dehydrated Pineapple,", "Dehydrated Lime Wheel"],"./images/pinita.png", null, null);
+   let mulecumber = new Drink("Mulecumber", "Rocco's Logo Pint",null,null,null, ["Sour Mix - 1 oz,", "Dugan & Dane Classic Tonic - 1 oz,", "Q Ginger Beer ( Topped )"], ["Basil Leaf,", "Peeled Cucumber,", "Dehydrated Lime Wheel"],"./images/mulecumber.png", null, ["Muddle", "-------------------------", "Basil", "&", "Cucumber", "2 ea."]);
+   let roseberry = new Drink("Roseberry", "Rocco's Logo Pint",null,null,null, ["Agave - .25 oz,", "Dugan & Dane:", "Classic Tonic - 1 oz,", "Rosemary Sprig", "Club Soda ( Topped )"], ["Rosemary Sprig,", "Dehydrated Lime Wheel,", "Blueberries ( 4-6 Skewered )"],"./images/roseberry.png", null, ["Muddle", "-------------------------", "Blueberries", "8 ea."]);
    //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
 
    // Happy Hour
@@ -132,9 +132,9 @@ class Drink{
    //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
 
    // Sangria
-   let whiteSangria = new Drink("White Sangria", "Wine Glass",null, ["Lindeman's Chardonnay 2 oz"], ["E & J Brandy / Amaretto Batch 1 oz", "sub: Grand Marnier"], ["Ginger Ale ( Topped ),", "Lime, Lemon & Orange Wedge ( 1 ea. Muddled ),", "Orange Juice .25 oz,", "Simple Syrup .25 oz"], ["Fruits"],"./images/whiteSangria.png",null, null);
-   let redSangria = new Drink("Red Sangria", "Wine Glass",null, ["Lindeman's Merlot 2 oz"], ["E & J Brandy / Blackberry Brandy Batch 1 oz", "sub: Grand Marnier"], ["Ginger Ale ( Topped ),", "Lime, Lemon & Orange Wedge ( 1 ea. Muddled ),", "Orange Juice .25 oz,", "Simple Syrup .25 oz"], ["Fruits"],"./images/redSangria.png",null, null);
-   let roseSangria = new Drink("Rose Sangria", "Wine Glass",null, ["Hampton Water Rose 2 oz"], ["E & J Brandy / Peach Schnapps Batch 1 oz", "sub: Grand Marnier"], ["Ginger Ale ( Topped ),", "Lime, Lemon & Orange Wedge ( 1 ea. Muddled ),", "Orange Juice .25 oz,", "Simple Syrup .25 oz"], ["Fruits"],"./images/roseSangria.png",null, null);
+   let whiteSangria = new Drink("White Sangria", "Wine Glass",null, ["Lindeman's Chardonnay - 2 oz"], ["E & J Brandy /", "Amaretto Batch - 1 oz", "--sub: Grand Marnier--"], ["Orange Juice - .25 oz,", "Simple Syrup - .25 oz,", "Ginger Ale ( Topped )"], ["Fruits"],"./images/whiteSangria.png",null, ["Muddle", "-------------------------", "Lime,", "Lemon", "&", "Orange Wedge", "1 ea."]);
+   let redSangria = new Drink("Red Sangria", "Wine Glass",null, ["Lindeman's Merlot - 2 oz"], ["E & J Brandy /", "Blackberry Brandy Batch - 1 oz", "--sub: Grand Marnier--"], ["Orange Juice - .25 oz,", "Simple Syrup - .25 oz,", "Ginger Ale ( Topped )"], ["Fruits"],"./images/redSangria.png",null, ["Muddle", "-------------------------", "Lime,", "Lemon", "&", "Orange Wedge", "1 ea."]);
+   let roseSangria = new Drink("Rose Sangria", "Wine Glass",null, ["Hampton Water Rose - 2 oz"], ["E & J Brandy /", "Peach Schnapps Batch - 1 oz", "--sub: Grand Marnier--"], ["Orange Juice - .25 oz,", "Simple Syrup - .25 oz,", "Ginger Ale ( Topped )"], ["Fruits"],"./images/roseSangria.png",null, ["Muddle", "-------------------------", "Lime,", "Lemon", "&", "Orange Wedge", "1 ea."]);
    //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
 
    // Specials
@@ -142,26 +142,26 @@ class Drink{
     /* Name */     "Diddy Rita",
     /* Glass */    "Rocks Glass", 
     /* Rim */      "Guest Choice", 
-    /* Liquor */   ["Deleon 2 oz"], 
-    /* Liqueuer */ ["Cointreau .5 oz"], 
-    /* Mixers */   ["Agave .5 oz,", "Blood Orange Juice 1.5 oz,", "Sour Mix 1 oz"], 
+    /* Liquor */   ["Deleon - 2 oz"], 
+    /* Liqueuer */ ["Cointreau - .5 oz"], 
+    /* Mixers */   ["Agave - .5 oz,", "Sour Mix - 1 oz,", "Blood O.J. - 1.5 oz"], 
     /* Garnish */  ["Orange Slice"],
     /* Image */    "./images/logo.png", 
     /* Batch */    null, null);
-   let tacoTuesday = new Drink("$7 House | $5 Mexican Drafts | $27.99 All You Can Eat Tacos", "Margarita Glass or Pint Glass", "Guest Choice", ["Jose Cuervo Tradicional Silver 1.5 oz"], ["Triple Sec 1 oz"], ["Sour Mix 3 oz"], ["Lime Wedge"],"./images/tacoTuesday.png", null, null);
+   let tacoTuesday = new Drink("$7 House | $5 Mexican Drafts | $27.99 All You Can Eat Tacos", "Margarita Glass", "Guest Choice", ["Jose Cuervo", "Tradicional Silver - 1.5 oz"], ["Triple Sec - 1 oz"], ["Sour Mix - 3 oz"], ["Lime Wedge"],"./images/tacoTuesday.png", null, null);
    //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
 
    // Brunch
-   let mimosa = new Drink("Mimosa", "Champagne Flute",null,["Sparkling Wine 3 oz"],null, ["Orange Juice 2 oz"],null,"./images/brunch.png", null, null);
-   let bloodyMary = new Drink("Bloody Mary", "Mojito Glass", "Rocco's Spice Rim",["Finlandia Vodka 2 oz"],null, ["Zing Zang 4 oz"], ["Lemon Wedge,", "Olives ( 3 Skewered )"],"./images/brunch.png", null, null);
+   let mimosa = new Drink("Mimosa", "Champagne Flute",null,["Sparkling Wine - 3 oz"],null, ["Orange Juice - 2 oz"],null,"./images/brunch.png", null, null);
+   let bloodyMary = new Drink("Bloody Mary", "Mojito Glass", "Rocco's Spice Rim",["Finlandia Vodka - 2 oz"],null, ["Zing Zang - 4 oz"], ["Lemon Wedge,", "Olives ( 3 Skewered )"],"./images/brunch.png", null, null);
    let rose = new Drink("Rosé", "Wine Glass",null, ["House Rosé 6 oz"],null,null,null,"./images/brunch.png", null, null);
    //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
 
 
    // Batch Recipes
-   let roccoMangoBatch = new Drink("Rocco Mango (Batch)",null,null, ["Jose Cuervo Tradicional Silver 750ml,", "Rock & Roll Mango Tequila 750ml"], ["J. F. Hayden Mango Liqueur 750ml"],null,null,"./images/logo.png", "Batch", null);
-   let houseLiterBatch = new Drink("House Liter (Batch)",null,null, ["Jose Cuervo Tradicional Silver 6 oz"], ["Triple Sec 3 oz"], ["Sour Mix 12 oz,", "Water 10 oz"],null,"./images/houseLiter.png", "Batch", null);
-   let houseLiterFlavorBatch = new Drink("House Liter Flavor (Batch)",null,null, ["Jose Cuervo Tradicional Silver 6 oz"], ["Triple Sec 3 oz"], ["Puree Flavor 3 oz", "Sour Mix 9 oz,", "Water 10 oz"],null,"./images/houseLiterFlavor.png", "Batch", null);
+   let roccoMangoBatch = new Drink("Rocco Mango (Batch)",null,null, ["Jose Cuervo:", "Tradicional Silver  - 750ml", "---------------------------------","Rock & Roll:", "Mango Tequila - 750ml"], ["J. F. Hayden:", "Mango Liqueur - 750ml"],null,null, "./images/logo.png", "Batch", null);
+   let houseLiterBatch = new Drink("House Liter (Batch)",null,null, ["Jose Cuervo:", "Tradicional Silver - 6 oz"], ["Triple Sec - 3 oz"], ["Sour Mix - 12 oz,", "Water - 10 oz"],null,"./images/houseLiter.png", "Batch", null);
+   let houseLiterFlavorBatch = new Drink("House Liter Flavor (Batch)",null,null, ["Jose Cuervo:", "Tradicional Silver 6 oz"], ["Triple Sec - 3 oz"], ["Puree Flavor - 3 oz", "Sour Mix - 9 oz,", "Water - 10 oz"],null,"./images/houseLiterFlavor.png", "Batch", ["Flavors:", "-------------------------", "Strawberry,", "Mango,", "Prickly Pear,", "Passion Fruit or", "Pomegranate"]);
    //let  = new Drink(null,null,null, null,null,null,null,"./images/logo.png", "Batch");
 
 
@@ -409,6 +409,7 @@ class Drink{
                     $("#drinkTitle").text(this.value);
                     $("#drinkPhoto").attr("src", x["photo"]);
                     $("#recipeDiv").html('<div class="recipe-container"></div>');
+
     
                     if(x["batch"] === "Batch"){
                         if(x["glass"] === "Wine Glass"){
@@ -428,6 +429,22 @@ class Drink{
                         $("#drinkPhoto").css("max-height", "32vh");
                         $("#recipeDiv").css("width", "30%");
                     } 
+
+                    
+                    if(x["name"] === "Diddy Rita"){
+                        $("#recipeInfoDiv").css("width", "22%");
+                        $("#drinkPhoto").css("max-height", "10vh");
+                        $("#recipeDiv").css("width", "30%");
+                        $("#recipeDiv").css("padding-top", "2vh");                        
+                    } 
+
+                    if(x["name"] === "Rocco Mango (Batch)"){
+                        $("#recipeInfoDiv").css("width", "22%");
+                        $("#drinkPhoto").css("max-height", "10vh");
+                        $("#recipeDiv").css("width", "30%");
+                        $("#recipeDiv").css("padding-top", "10vh");
+                    } 
+                    
     
                  
                     if(x["rim"] !== null){                   
@@ -502,7 +519,16 @@ class Drink{
                          $("#liqueurRecipe2").text(x["liqueur"][1]);
                          $("#liqueur, #liqueurRecipe").css( "padding-bottom", "0" );
                          $("#liqueurRecipe2").css( "padding-bottom", "2vh" );
-                        } 
+                        } else if(x["liqueur"].length === 3){
+                            $(".recipe-container").append('<p id="liqueurRecipe2"></p>');
+                            $("#liqueurRecipe2").show();
+                            $("#liqueurRecipe2").text(x["liqueur"][1]);
+                            $(".recipe-container").append('<p id="liqueurRecipe3"></p>');
+                            $("#liqueurRecipe3").show();
+                            $("#liqueurRecipe3").text(x["liqueur"][2]);
+                            $("#liqueur, #liqueurRecipe, #liqueurRecipe2").css( "padding-bottom", "0" );
+                            $("#liqueurRecipe3").css( "padding-bottom", "2vh" );
+                        }
                     }
     
     
@@ -588,7 +614,7 @@ class Drink{
                             $("#garnishRecipe2").text(x["garnish"][1]);
                             $("#garnish, #garnishRecipe").css( "padding-bottom", "0" );
                             $("#garnishRecipe2").css( "padding-bottom", "2vh" );
-                           } else if(x["mixers"].length === 3){
+                           } else if(x["garnish"].length === 3){
                             $(".recipe-container").append('<p id="garnishRecipe2"></p>');
                             $("#garnishRecipe2").show();
                             $("#garnishRecipe2").text(x["garnish"][1]);
@@ -597,7 +623,7 @@ class Drink{
                             $("#garnishRecipe3").text(x["garnish"][2]);
                             $("#garnish, #garnishRecipe, #garnishRecipe2").css( "padding-bottom", "0" );
                             $("#garnishRecipe3").css( "padding-bottom", "2vh" );
-                           } else if(x["mixers"].length === 4){
+                           } else if(x["garnish"].length === 4){
                             $(".recipe-container").append('<p id="garnishRecipe2"></p>');
                             $("#garnishRecipe2").show();
                             $("#garnishRecipe2").text(x["garnish"][1]);
