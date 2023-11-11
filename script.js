@@ -305,7 +305,7 @@ class Drink{
 
       
       const searchInput = document.querySelector('.input');
-      const clearButton = document.getElementById('clear');
+      const clearButton = document.getElementById('clearBtn');
       const list = document.getElementById('list');
     
       /* Search Button */
@@ -346,11 +346,33 @@ class Drink{
       
 
       /* Clear Button */
-      /*
       clearButton.addEventListener("click", () => {
-          clearList();
+        clearList();
+        $(".item3").hide();
+        $("#recipeDiv").hide();
+        $(".drink-title").hide();
+        $("#liquorRecipe2").hide();
+        $("#mixersRecipe2").hide();
+        $("#mixersRecipe3").hide();
+        $("#mixersRecipe4").hide();
+        $("#mixersRecipe5").hide();
+        $("#garnishRecipe2").hide();
+        $("#garnishRecipe3").hide();
+        $("#garnishRecipe4").hide();
+        $("#garnishRecipe5").hide();
+        $(".all-buttons").hide();
+        $(".results-list").hide();
+        $("#specialtyBtnDiv").hide();
+        $("#drinkPhoto").hide();
+        $("#specialtyBtnDiv").hide();
+        $("#margBtnDiv").hide();
+        $("#otherBtnDiv").show();
+        $(".other-buttons").show()//.fadeIn(200);
+        $(".form-container").show();
+        $(".button-container").show();
+        searchInput.value = '';
       })
-      */
+      
 
       /* Result */
       function setList(results){
@@ -371,7 +393,8 @@ class Drink{
             console.log(drink.name)  
 
           if (results.length === 0 ){
-            noResults()
+            noResults();                        // not working-------------------------
+            console.log("working?")
           };
 
         };
@@ -874,7 +897,7 @@ class Drink{
             openFullscreen();
         });
     
-        $("#navOther, #clear").click(function(){
+        $("#navOther").click(function(){
             $(".item3").hide();
             $("#recipeDiv").hide();
             $(".drink-title").hide();

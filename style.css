@@ -225,24 +225,40 @@ body {
     overflow: scroll;
 }
 
+#otherBtnDiv{
+    height: 40vh;
+}
+
 #specialtyBtnDiv{
     width: 80%;
 }
 
-.form-container
-.form{
+.form-container{
     margin: auto;
     padding: auto;
+    width: 90vw;
+    display: block;
+    float: left;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 /* Search */
 #search{
-    margin: 0 auto 0 auto;
-    width: 80vw;
+    margin: 0 1.5vw 0 auto;
+    width: 65vw;
     height: 5vh;
     padding: 1%;
     font-size: 3vh;
+}
+
+#clear{
+    margin: 0 3.5vw 0 1.5vw;
+    height: 8vh;
+    background-color: rgb(72, 72, 72);
+    font-size: 4vh;
 }
 
 #list{
