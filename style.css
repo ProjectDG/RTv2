@@ -34,7 +34,8 @@ body {
     .form,
     #otherBtnDiv,
     #drinkPhoto,
-    #mainButtonContainer{
+    #mainButtonContainer,
+    #clear{
     display: none;
     }
 
@@ -144,7 +145,8 @@ body {
 #recipeInfoDiv,
 .recipe-container2,
 .recipe-ingredients-container2,
-#logoDiv
+#logoDiv,
+#clear
 {
     display: none;
 }
@@ -247,7 +249,7 @@ body {
 
 /* Search */
 #search{
-    margin: 0 1.5vw 0 auto;
+    margin: auto 1.5vw auto 0;
     width: 65vw;
     height: 5vh;
     padding: 1%;
@@ -255,7 +257,7 @@ body {
 }
 
 #clear{
-    margin: 0 3.5vw 0 1.5vw;
+    margin: auto;
     height: 8vh;
     background-color: rgb(72, 72, 72);
     font-size: 4vh;

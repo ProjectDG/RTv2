@@ -305,7 +305,7 @@ class Drink{
 
       
       const searchInput = document.querySelector('.input');
-      const clearButton = document.getElementById('clearBtn');
+      const clearButton = document.getElementById('clear');
       const list = document.getElementById('list');
     
       /* Search Button */
@@ -390,12 +390,7 @@ class Drink{
             list.appendChild(resultItem);
             $(".results-list").show();
             $(".result-item").show()//.fadeIn(200);
-            console.log(drink.name)  
-
-          if (results.length === 0 ){
-            noResults();                        // not working-------------------------
-            console.log("working?")
-          };
+            console.log(drink.name);
 
         };
 
@@ -413,7 +408,7 @@ class Drink{
 
               setList(drinks.filter(drink => {
                   return drink.name.includes(value);
-              }))
+              }));
           }
       })
 
@@ -919,6 +914,7 @@ class Drink{
             $("#otherBtnDiv").show();
             $(".other-buttons").show()//.fadeIn(200);
             $("#search").show();
+            $("#clear").show();
             $(".form-container").show();
             $(".button-container").show();
             searchInput.value = '';
