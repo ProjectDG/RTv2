@@ -166,21 +166,56 @@ class Drink{
 
 
    // Searchable Drinks
-   let aperolSpritz = new Drink("Aperol Spritz", "Wine Glass",null, ["Dry Prosecco 3 oz"], ["Aperol 2 oz"], ["Club Soda 1 oz ( Splash )"], ["Orange Slice"],"./images/aperolSpritz.png", null, null);
-   let appleMartini = new Drink("Apple Martini", "Martini Glass",null,["Vodka 1.5 oz"], ["Sour Apple Pucker .5 oz"], ["Lemon Juice 1 oz,","Simple Syrup ( or Agave ) .5 oz"], ["Apple Slice & Cherry"],"./images/appletini.png", null, null);
-   let chocolateMartini = new Drink("Chocolate Martini", "Martini Glass",null, ["Vodka ( or Vanilla Vodka ) 2 oz"], ["Crème de Cacao ( White ) .5 oz,", "Godiva Chocolate Liqueur or Crème de Cacao ( Dark ) .5 oz"], ["Milk ( For Volume If Wanted ) 1 oz"], ["Chocolate Shavings ( On Rim or Top ),", "Chocolate Syrup ( In Glass Before Pour )"],"./images/chocolateMartini.png", null, null);
-   let espressoMartini = new Drink("Espresso Martini", "Martini Glass",null,["Vodka ( or Vanilla Vodka ) 2 oz"], ["Crème de Cacao .5 oz,", "Kahlua .5 oz"], ["Espresso ( or Coffee ) .5"], ["Espresso Beans 3"],"./images/espressoMartini.png", null, null);
-   let french75 = new Drink("French 75", "Champagne Flute", "Champaign 2 oz", ["Gin 1.5 oz"],null, ["Lemon Juice .75 oz,", "Simple syrup .75 oz"], ["Lemon Twist"],"./images/french75.png", null, null);
-   let frenchMartini = new Drink("French Martini", "Martini Glass",null, ["Vodka 1.5 oz"], ["Chambord .5 oz"], ["Pineapple Juice .75 oz"], ["Lemon Twist"],"./images/frenchMartini.png", null, null);
-   let greenTea = new Drink("Green Tea", "Rocks Glass",null, ["Irish Whiskey .5 oz"], ["Peach Schnapps .5 oz"], ["Sour Mix .5 oz,", "Sprite ( Splash )"],null,"./images/greenTea.png", null, null);
-   let hurricane = new Drink("Hurricane", "Hurricane Glass",null, ["Dark Rum 1 oz,", "Light Rum 1 oz"],null, ["Grenadine 1 Teaspoon,", "Lime Juice .5 oz,", "Orange Juice .5 oz,", "Passion Fruit Puree .5 oz,", "Simple Syrup .5 oz"], ["Cherry & Orange Slice"],"./images/hurricane.png", null, null);
-   let longIslandIcedTea = new Drink("Long Island Iced Tea", "Pint Glass",null, ["Gin .5 oz,", "Rum .5 oz,", "Tequila .5 oz,", "Vodka .5 oz"], ["Triple Sec .5 oz"], ["Coke 1 oz,", "Sweet & Sour Mix 1 oz"], ["Lemon Wheel"], "./images/longIslandIcedTea.png", null, null);
-   let maiTai = new Drink("Mai Tai", "Hurricane Glass",null, ["Dark Rum ( Float ) .5 oz,", "Rum 1.5 oz,"], ["Orange Curaçao .75 oz"], ["Lemon Juice .75 oz,", "Orgeat .5 oz"], ["Lime & Mint Sprig"],"./images/maiTai.png", null, null);
-   let negroni = new Drink("Negroni", "Rocks Glass",null, ["Gin 1 oz"], ["Campari 1 oz"], ["Sweet Vermouth 1 oz"], ["Orange Slices"],"./images/negroni.png", null, null);
-   let sexOnTheBeach = new Drink("Sex On The Beach", "Hurricane Glass",null, ["Vodka 1.5 oz"], ["Peach Schnapps .5 oz"], ["Cranberry Juice 2 oz,", "Orange Juice 2 oz"], ["Cherry & Orange Slice"],"./images/sexOnTheBeach.png", null, null);
-   let siesta = new Drink("Siesta", "Coupe Glass",null, ["Tequila ( Blanco ) 2 oz"], ["Campari .5 oz"],["Agave or Simple Syrup .5 oz,", "Grapefruit Juice .5 oz,", "Lime Juice .75 oz"], ["Lime, Lemon or Grapefruit Wedge"],"./images/siesta.png", null, null);
+   let aperolSpritz = new Drink("Aperol Spritz", "Wine Glass",null, ["Dry Prosecco - 3 oz"], ["Aperol - 2 oz"], ["Club Soda ( Splash )"], ["Orange Slice"],"./images/aperolSpritz.png", null, null);
+   let appleMartini = new Drink("Apple Martini", "Martini Glass",null,["Vodka - 1.5 oz"], ["Sour Apple Pucker - .5 oz"], ["Lemon Juice - 1 oz,","Simple Syrup ( or Agave ) - .5 oz"], ["Apple Slice & Cherry"],"./images/appletini.png", null, null);
+   let bellini = new Drink(
+    /* Name */         "Bellini",
+    /* Glass */        "Champagne Flute", 
+    /* Rim */          null, 
+    /* Liquor */       ["Proseco - 6 oz", "( or other dry sparkling wine )"], 
+    /* Liqueuer */     null, 
+    /* Mixers */       ["Peach Puree - 3 oz"], 
+    /* Garnish */      ["Peach Slice"],
+    /* Image */        "./images/bellini.png", 
+    /* Batch */        null,
+    /* Instructions */ ["Alternate", "( if no peach puree available)", "---------------------------------", "Proseco - 4 oz", "Peach Schnapps - 1 oz"]);
+   let chocolateMartini = new Drink("Chocolate Martini", "Martini Glass",null, ["Vodka ( or Vanilla Vodka ) - 2 oz"], ["Crème de Cacao ( White ) - .5 oz,", "Crème de Cacao ( Dark ) - .5 oz"], ["Milk ( For Volume If Wanted ) - 1 oz"], ["Chocolate Shavings", "( On Rim or Top )," , "Chocolate Syrup", "( In Glass Before Pour )"],"./images/chocolateMartini.png", null, null);
+   let cosmopolitanOG = new Drink(
+    /* Name */         "Cosmopolitan ( Original )",
+    /* Glass */        "Coupe Glass", 
+    /* Rim */          null, 
+    /* Liquor */       ["Citron Vodka - 1.5 oz"], 
+    /* Liqueuer */     ["Cointreau - 1.5 oz"], 
+    /* Mixers */       ["Fresh Lime Juice - 1 oz,",
+                        "Cranberry Juice ( 1 - 2 Dashes )"], 
+    /* Garnish */      ["Lemon Twist"],
+    /* Image */        "./images/cosmopolitanOG.png", 
+    /* Batch */        null,
+    /* Instructions */ null);
+    let cosmopolitanCran = new Drink(
+        /* Name */         "Cosmopolitan ( Cranberry-Esque )",
+        /* Glass */        "Coupe Glass", 
+        /* Rim */          null, 
+        /* Liquor */       ["Citron Vodka - 1.5 oz"], 
+        /* Liqueuer */     ["Cointreau - .75 oz"], 
+        /* Mixers */       ["Cranberry Juice - 1 oz,",
+                            "Fresh Lime Juice - 1 oz,"], 
+        /* Garnish */      ["Lemon Twist"],
+        /* Image */        "./images/cosmopolitanCran.png", 
+        /* Batch */        null,
+        /* Instructions */ null);
+   let espressoMartini = new Drink("Espresso Martini", "Martini Glass",null,["Vodka ( or Vanilla Vodka ) - 2 oz"], ["Kahlua - .5 oz,", "Crème de Cacao - .5 oz"], ["Espresso ( or Coffee ) - .5"], ["Espresso Beans 3"],"./images/espressoMartini.png", null, null);
+   let french75 = new Drink("French 75", "Champagne Flute", "Champaign - 2 oz", ["Gin - 1.5 oz"],null, ["Lemon Juice - .75 oz,", "Simple syrup - .75 oz"], ["Lemon Twist"],"./images/french75.png", null, null);
+   let frenchMartini = new Drink("French Martini", "Martini Glass",null, ["Vodka - 1.5 oz"], ["Chambord - .5 oz"], ["Pineapple Juice - .75 oz"], ["Lemon Twist"],"./images/frenchMartini.png", null, null);
+   let greenTea = new Drink("Green Tea", "Rocks Glass",null, ["Irish Whiskey - .5 oz"], ["Peach Schnapps - .5 oz"], ["Sour Mix - .5 oz,", "Sprite ( Splash )"],null,"./images/greenTea.png", null, null);
+   let hurricane = new Drink("Hurricane", "Hurricane Glass",null, ["Dark Rum - 1 oz,", "Light Rum - 1 oz"],null, ["Lime Juice - .5 oz,", "Orange Juice - .5 oz,", "Simple Syrup - .5 oz,", "Passion Fruit Puree - .5 oz", "Grenadine 1 Teaspoon"], ["Cherry & Orange Slice"],"./images/hurricane.png", null, null);
+   let longIslandIcedTea = new Drink("Long Island Iced Tea", "Pint Glass",null, ["Gin - .5 oz,", "Rum - .5 oz,", "Vodka - .5 oz,", "Tequila - .5 oz"], ["Triple Sec - .5 oz"], ["Coke - 1 oz,", "Sweet & Sour Mix - 1 oz"], ["Lemon Wheel"], "./images/longIslandIcedTea.png", null, null);
+   let maiTai = new Drink("Mai Tai", "Hurricane Glass",null,["Rum - 1.5 oz,", "Dark Rum ( Float ) - .5 oz"], ["Orange Curaçao - .75 oz"], ["Orgeat - .5 oz,", "Lemon Juice - .75 oz"], ["Lime & Mint Sprig"],"./images/maiTai.png", null, null);
+   let negroni = new Drink("Negroni", "Rocks Glass",null, ["Gin - 1 oz"], ["Campari - 1 oz"], ["Sweet Vermouth - 1 oz"], ["Orange Slices"],"./images/negroni.png", null, null);
+   let sexOnTheBeach = new Drink("Sex On The Beach", "Hurricane Glass",null, ["Vodka - 1.5 oz"], ["Peach Schnapps - .5 oz"], ["Orange Juice - 2 oz,", "Cranberry Juice - 2 oz"], ["Cherry & Orange Slice"],"./images/sexOnTheBeach.png", null, null);
+   let siesta = new Drink("Siesta", "Coupe Glass",null, ["Tequila ( Blanco ) - 2 oz"], ["Campari - .5 oz"],["Lime Juice - .75 oz,", "Grapefruit Juice - .5 oz,", "Agave or Simple Syrup - .5 oz"], ["Lime, Lemon or Grapefruit Wedge"],"./images/siesta.png", null, null);
    
-   //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
+   //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null, null);
 
    // Drink Name Array
    let drinks = [
@@ -250,7 +285,10 @@ class Drink{
        // Searchable Drinks ******************
        aperolSpritz,
        appleMartini,
+       bellini,
        chocolateMartini,
+       cosmopolitanOG,
+       cosmopolitanCran,
        espressoMartini,
        french75,
        frenchMartini,
@@ -397,6 +435,7 @@ class Drink{
             $("#drinkPhoto").css("max-height", "45vh");
             $("#recipeDiv").css("width", "40%");
             $("#recipeInfoDiv").css("width", "28%");
+            $("#recipeDiv").css("padding-top", "0");
             openFullscreen();
     
     
