@@ -527,10 +527,12 @@ img[src="./images/logo.png"]{
     }
 
     #drinkPhoto{
-        height: 60%;
+        height: 65%;
+        margin-bottom: 10vh;
     }
 
     #recipeDiv{
+        margin-top: 4vh;
         width: 5vw;
     }
 
