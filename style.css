@@ -119,7 +119,7 @@ body {
 }
 
 
-@media screen and (orientation:landscape) {
+@media screen and (max-width: 3088px) and (orientation:landscape) {
 
 /* Initialization */  
 .frozen-buttons, 
@@ -518,7 +518,30 @@ img[src="./images/logo.png"]{
 }
 }
 
+/* Fire Tablet Resolution 1200 x 1920 */
+@media screen and (max-width: 1920px) and (orientation:landscape) {
 
-/* Fire Tblet Resolution 1920 x 1200*/
+    #recipeInfoDiv{
+        width: 2%;
+        font-size: 2.5vh;
+    }
+
+    #drinkPhoto{
+        height: 60%;
+    }
+
+    #recipeDiv{
+        width: 5vw;
+    }
+
+    .recipe-container{
+        width: fit-content;
+        height: 5%;
+        font-size: 2.5vh;
+    }
+
+ }
+
+
 
 /* S22 Ultra Resolution 1440 x 3088 */

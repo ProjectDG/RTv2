@@ -483,7 +483,7 @@ class Drink{
 
                     if(x["name"] === "Jalapeno"){
                         $("#recipeInfoDiv").css("width", "22%");
-                        $("#drinkPhoto").css("max-height", "32vh");
+                        $("#drinkPhoto").css("max-height", "40%");
                         $("#recipeDiv").css("width", "30%");
                     } 
 
