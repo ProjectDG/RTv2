@@ -96,7 +96,7 @@ body {
 
     #portraitContainer{
         border: 4px outset rgb(122, 113, 113);
-        margin: 10% ;
+        margin: 0% 10%;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.5);
     }
